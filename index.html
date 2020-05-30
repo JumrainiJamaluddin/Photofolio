@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RAIN's BLOG</title>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <div class="container navbar">
+        <header>
+            <div class="lgo">
+                <h1>Rain's Blog</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#work">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <!--JUMBOTROON-->
+    <div class="container main-info-section">
+        <div class="text">
+            <h1>
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">R</span>
+                <span class="m-left name">a</span>
+                <span class="m-left name">i</span>
+                <span class="m-left name">n</span>
+                <span class="m-left name">'</span>
+                <span class="m-left name">s</span>
+                <br>
+                <span>W</span>
+                <span class="m-left">e</span>
+                <span class="m-left">b</span>
+                <br>
+                <span>B</span>
+                <span class="m-left">l</span>
+                <span class="m-left">o</span>
+                <span class="m-left">g</span>
+                <span class="m-left">.</span>
+            </h1>
+            <p>CSS / JavaScript / React </p>
+            <a href="#contact">Contact Me</a>
+        </div>
+        <div class="profile-image">
+            <img src="img/profile-image.jpg">
+        </div>
+    </div>
+
+    <!--ABOUTE-->
+    <div class="container about" id="about">
+        <h1>About</h1>
+        <div class="about-me-info">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate provident eaque culpa sapiente
+                dignissimos? Incidunt natus nisi enim rerum veritatis, corrupti rem labore nulla in quia, esse tenetur
+                ullam consequatur.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quisquam sed fugit nihil sunt?
+                Laudantium eum facere velit assumenda, ratione minima saepe minus. Dolores porro nobis doloribus
+                blanditiis nihil repellendus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laborum earum nobis enim hic, omnis
+                perferendis non blanditiis laudantium dignissimos aperiam recusandae iste inventore nostrum ab, impedit
+                doloremque atque culpa!</p>
+        </div>
+        <img src="img/dotted-shape.png">
+    </div>
+
+    <!--SKILLS-->
+    <div class="container skills" id="skills">
+        <h1>Skills</h1>
+        <p class="skills-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, perspiciatis, voluptates
+            ut itaque aliquam, sint harum aliquid delectus perferendis at repellendus iste saepe tenetur ipsa vitae
+            dolores iure. Laboriosam, harum!</p>
+        <div class="html">
+            <div class="tag-html">
+                <p>html</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-html"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-css">
+                <p>html</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-css"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-javascript">
+                <p>html</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-javascript"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-react">
+                <p>html</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-react"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--WORKS-->
+    <div class="container work" id="work">
+        <h1>Work</h1>
+        <div class="work-category">
+            <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Designing</button>
+            <button id="animation" onclick="showRequiredCategory(this)">web animation</button>
+            <button id="project" onclick="showRequiredCategory(this)">React Projects</button>
+        </div>
+        <div class="category-designing showCategory">
+            <a href=""><img src="img/1.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+        </div>
+        <div class="category-animation hideCategory">
+            <a href=""><img src="img/1.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+        </div>
+        <div class="category-project hideCategory">
+            <a href=""><img src="img/1.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+            <a href=""><img src="img/2.png"></a>
+            <a href=""><img src="img/3.png"></a>
+        </div>
+    </div>
+
+    <!--kontak US-->
+    <div class="container contact">
+        <h1>Contact</h1>
+        <form>
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="email" placeholder="Portfoliopersonal@gmail.com" disabled>
+            <textarea name="massage" cols="30" rows="10" placeholder="Massage"></textarea>
+            <input type="submit">
+        </form>
+    </div>
+
+    <footer>
+        <hr>
+        <p>2019 Copyright. All Right Reserve </p>
+    </footer>
+
+
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+</body>
+
+</html>
